@@ -1,6 +1,6 @@
 # Guide for Naming Assets in iOS Projects
 
-This guide outlines naming conventions to help graphic designers and developers manage image icons (or assets) generated for iOS projects. 
+This guide outlines [naming conventions](#conventions) to help graphic designers and developers manage image icons (or assets) generated for iOS projects. 
 
 Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/issues), [pull requests](https://github.com/dkhamsing/ios-asset-names/pulls), [twitter](https://twitter.com/alldonegoodbye).
 

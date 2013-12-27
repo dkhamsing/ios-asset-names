@@ -67,9 +67,20 @@ menu.png
 selected.png
 ```
 
-### Collision
+### Collisions / Conventions
 
-* If two assets have the same name (should be rare because of the folder prefix), try to use a qualifier at the end
+If two assets have the same name (should be rare because of the folder prefix), try to use a qualifier at the end
+
+* `*-o` for outline
+* `*-square`
+* `*-circle`
+* `*-right`, `*-up`, etc
+
+* `*-square-o` for square outline
+
+* `chevron` for >
+* `caret` for ►
+
 
 ```
 ss-top-arrow-right-circle.png
@@ -81,7 +92,7 @@ ss-top-badge-gray.png
 
 ### Spelling
 
-* Use American over British spelling (sorry M'lady)
+Use American over British spelling (sorry M'lady)
 
 **For example:**
 ```
@@ -110,26 +121,10 @@ fb.png
 tw.png
 ```
 
-### Conventions (if applicable)
-
-```
-*-o for outline
-*-square
-*-circle
-*-right, *-up, etc
-
-*-square-o for square outline
-
-chevron for >
-caret for ►
-```
-
 ### Special cases
-* The icon name is well represented by its function (see [Charbase](http://www.charbase.com/21bb-unicode-clockwise-open-circle-arrow))
+The icon name is well represented by its function (see [Charbase](http://www.charbase.com/21bb-unicode-clockwise-open-circle-arrow))
 
-```
-⟳ open circle arrow (U+21BB) can be named refresh
-✎ pencil (U+270E) can be named edit 
-🔍 magnifying glass (U+1F50D) can be named search
-👤 bust in silhouette (U+1F464) can be named user
-```
+* `refresh` for ⟳ open circle arrow (U+21BB)  
+* `edit` for ✎ pencil (U+270E) 
+* `search` for 🔍 magnifying glass (U+1F50D) 
+* `user` for 👤 bust in silhouette (U+1F464) 

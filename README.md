@@ -1,14 +1,14 @@
 # Guide for Naming Assets in iOS Projects
 
-This guide outlines [naming conventions](#conventions) to help graphic designers and developers manage image icons (or assets) generated for iOS projects. 
+This guide outlines [naming conventions](#naming) to help graphic designers and developers manage image icons (or assets) generated for iOS projects. 
 
 Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/issues), [pull requests](https://github.com/dkhamsing/ios-asset-names/pulls), [twitter](https://twitter.com/alldonegoodbye).
 
 ## Table Of Contents
 * [Folders](#folders)
 * [Format](#format)
-* [Prefixes](#prefixes)
 * [Naming](#naming)
+	* [Prefixes](#prefixes)
 	* [Conventions](#conventions)
 	* [Special cases](#special-cases)
 	* [Collisions](#collisions)
@@ -51,8 +51,9 @@ asset.png
 asset@2x.png
 ```
 
+## Naming
 
-## Prefixes
+### Prefixes
 
 * Prefix the asset with a 2-letter prefix (or 3-letter) representing the `project` so you can tell which project it belongs to
 * Subsequently, prefix the asset using the `folder` name so you can tell which folder it belongs to 
@@ -69,9 +70,6 @@ project-folder-asset-name.png
 ss-intro-arrow-right.png 
 bpc-intro-arrow-right.png 
 ```
-
-
-## Naming
 
 ### Conventions
 

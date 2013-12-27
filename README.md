@@ -2,11 +2,11 @@
 
 This guide outlines [naming conventions](#naming) to help graphic designers and developers manage image icons (or assets) generated for iOS projects. 
 
-Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/issues), [pull requests](https://github.com/dkhamsing/ios-asset-names/pulls), [twitter](https://twitter.com/alldonegoodbye).
+Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/issues), [pull requests](https://github.com/dkhamsing/ios-asset-names/pulls), or [twitter](https://twitter.com/alldonegoodbye).
 
 ## Table Of Contents
 * [Folders](#folders)
-* [Format](#format)
+* [Asset Type](#asset-type)
 * [Naming](#naming)
 	* [Prefixes](#prefixes)
 	* [Conventions](#conventions)
@@ -22,14 +22,8 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 * Organize the assets in subfolders named after sections or logical grouping of the app (agree on the subfolder names when reviewing the mockups/designs)
 * Use lower case
 * No spaces or special characters (use dashes)
+* Format: `assets`/`subfolder`/
 
-**Format**
-
-```
-assets/subfolder/
-```
-
-**Examples**
 
 ```
 images/top/
@@ -39,7 +33,7 @@ images/share/
 images/tutorial/ 
 ```
 
-## Format
+## Asset Type
 
 * Use the [PNG format](http://en.wikipedia.org/wiki/Portable_Network_Graphics) when possible
 * Determine if transparency is needed ([UIButton tap issue](http://stackoverflow.com/questions/17368803/how-can-i-make-uibutton-respond-to-touch-on-the-transparent-areas-of-a-png-image))
@@ -57,14 +51,7 @@ asset@2x.png
 
 * Prefix the asset with a 2-letter prefix (or 3-letter) representing the `project` so you can tell which project it belongs to
 * Subsequently, prefix the asset using the `folder` name so you can tell which folder it belongs to 
-
-**Format**
-
-```
-project-folder-asset-name.png
-```
-
-**Examples**
+* Format: `project`-`folder`-asset-name.png
 
 ```
 ss-intro-arrow-right.png 

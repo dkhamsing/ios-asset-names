@@ -4,6 +4,18 @@ This guide outlines naming conventions to help graphic designers and developers 
 
 Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/issues), [pull requests](https://github.com/dkhamsing/ios-asset-names/pulls), [twitter](https://twitter.com/alldonegoodbye).
 
+## Table Of Contents
+* [Folders](#folders)
+* [Assets / Format](assets-format)
+* [Prefixes](#prefixes)
+* [Naming](#naming)
+	* [Conventions](#conventions)
+	* [Special cases](#special-cases)
+	* [Collisions / Qualifiers](#collisions-qualifiers)
+	* [Spelling](#spelling)
+	* [Abbreviations](#abbreviations)
+* [Acknowledgment](#acknowledgement)
+
 
 ## Folders
 * Use a main folder (usually named `assets` or `images`) 
@@ -61,7 +73,9 @@ bpc-intro-arrow-right.png
 
 ## Naming
 
-* **The asset name describes the icon**, not the function of the icon (when possible)
+### Conventions
+
+* **The asset name describes the icon**, not the function of the icon (when possible, there are also [special cases](#special-cases))
 * Use lower case
 * No spaces or special characters (use dashes)
 
@@ -80,19 +94,21 @@ menu.png
 selected.png
 ```
 
-### Conventions / Collisions 
-
-Naming conventions 
+#### Notable
 
 * `chevron` for >
 * `caret` for ►
 
-Special cases when the name is well represented by its function (see [Charbase](http://www.charbase.com/21bb-unicode-clockwise-open-circle-arrow))
+#### Special cases 
+
+Sometimes the name is well represented by its function (see [Charbase](http://www.charbase.com/21bb-unicode-clockwise-open-circle-arrow))
 
 * `refresh` for ⟳ open circle arrow (U+21BB)  
 * `edit` for ✎ pencil (U+270E) 
 * `search` for 🔍 magnifying glass (U+1F50D) 
 * `user` for 👤 bust in silhouette (U+1F464) 
+
+#### Collisions / Qualifiers
 
 If two assets have the same name (should be rare thanks to the folder prefix), try to use a qualifier at the end.
 
@@ -149,7 +165,9 @@ hanger-grey.png
 colour-swatch.png 
 ```
 
-### No abbreviations
+### Abbreviations
+
+Do not abbreviate
 
 **For example**
 ```

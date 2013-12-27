@@ -125,11 +125,11 @@ caret for ►
 ```
 
 ### Special cases
-* The icon name is well represented by its function
+* The icon name is well represented by its function (see [Charbase](http://www.charbase.com/21bb-unicode-clockwise-open-circle-arrow))
 
 ```
-ss-web-browser-refresh.png
-ss-top-search.png
-ss-rack-edit.png
-ss-intro-user.png
+⟳ open circle arrow (U+21BB) can be named refresh
+✎ pencil (U+270E) can be named edit 
+🔍 magnifying glass (U+1F50D) can be named search
+👤 bust in silhouette (U+1F464) can be named user
 ```

@@ -79,28 +79,57 @@ menu.png
 selected.png
 ```
 
-### Collisions / Conventions
+### Conventions / Collisions 
 
-If two assets have the same name (should be rare because of the folder prefix), try to use a qualifier at the end
-
-* `*-o` for outline
-* `*-square`
-* `*-circle`
-* `*-right`, `*-up`, etc
-
-* `*-square-o` for square outline
+Naming conventions 
 
 * `chevron` for >
 * `caret` for ►
 
+Special cases when the name is well represented by its function (see [Charbase](http://www.charbase.com/21bb-unicode-clockwise-open-circle-arrow))
+
+* `refresh` for ⟳ open circle arrow (U+21BB)  
+* `edit` for ✎ pencil (U+270E) 
+* `search` for 🔍 magnifying glass (U+1F50D) 
+* `user` for 👤 bust in silhouette (U+1F464) 
+
+If two assets have the same name (should be rare because of the folder prefix), try to use a qualifier at the end. 
+
+
+Color qualifer
+
+```
+ss-top-badge-pink.png
+ss-top-badge-gray.png
+```
+
+Shape qualifer
+
+* `*-square` 
+* `*-circle`
+* `*-o` for outline
 
 ```
 ss-top-arrow-right-circle.png
 ss-top-arrow-right-square.png
-
-ss-top-badge-pink.png
-ss-top-badge-gray.png
 ```
+
+Combine shapes
+
+* `*-square-o` for square outline
+
+
+Direction qualifer (always at the end)
+
+* `*-right`
+* `*-left`
+* `*-up`, etc
+
+```
+ss-top-arrow-right.png
+ss-top-arrow-square-right.png
+```
+
 
 ### Spelling
 
@@ -133,10 +162,3 @@ fb.png
 tw.png
 ```
 
-### Special cases
-The icon name is well represented by its function (see [Charbase](http://www.charbase.com/21bb-unicode-clockwise-open-circle-arrow))
-
-* `refresh` for ⟳ open circle arrow (U+21BB)  
-* `edit` for ✎ pencil (U+270E) 
-* `search` for 🔍 magnifying glass (U+1F50D) 
-* `user` for 👤 bust in silhouette (U+1F464) 

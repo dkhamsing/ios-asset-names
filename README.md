@@ -98,14 +98,14 @@ Sometimes the name is well represented by its function (see [Charbase](http://ww
 If two assets have the same name (should be rare thanks to the folder prefix), try to use a qualifier at the end.
 
 
-Color qualifer
+##### Color qualifer
 
 ```
 ss-top-plus-pink.png
 ss-top-plus-gray.png
 ```
 
-Shape qualifer
+##### Shape qualifer
 
 * `*-square` 
 * `*-circle`
@@ -116,12 +116,11 @@ ss-top-arrow-right-circle.png
 ss-top-arrow-right-square.png
 ```
 
-Combine shapes
+##### Combine shapes
 
 * `*-square-o` for square outline
 
-
-Direction qualifer (always at the end)
+##### Direction qualifer (always at the end)
 
 * `*-right`
 * `*-left`
@@ -131,7 +130,6 @@ Direction qualifer (always at the end)
 ss-top-arrow-right.png
 ss-top-arrow-square-right.png
 ```
-
 
 ### Spelling
 

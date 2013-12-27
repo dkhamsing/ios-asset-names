@@ -6,12 +6,12 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 
 ## Table Of Contents
 * [Folders](#folders)
-* [Assets / Format](assets-format)
+* [Format](#format)
 * [Prefixes](#prefixes)
 * [Naming](#naming)
 	* [Conventions](#conventions)
 	* [Special cases](#special-cases)
-	* [Collisions / Qualifiers](#collisions-qualifiers)
+	* [Collisions](#collisions)
 	* [Spelling](#spelling)
 	* [Abbreviations](#abbreviations)
 * [Acknowledgment](#acknowledgement)
@@ -39,7 +39,7 @@ images/share/
 images/tutorial/ 
 ```
 
-## Assets / Format
+## Format
 
 * Use the [PNG format](http://en.wikipedia.org/wiki/Portable_Network_Graphics) when possible
 * Determine if transparency is needed ([UIButton tap issue](http://stackoverflow.com/questions/17368803/how-can-i-make-uibutton-respond-to-touch-on-the-transparent-areas-of-a-png-image))
@@ -108,7 +108,7 @@ Sometimes the name is well represented by its function (see [Charbase](http://ww
 * `search` for 🔍 magnifying glass (U+1F50D) 
 * `user` for 👤 bust in silhouette (U+1F464) 
 
-#### Collisions / Qualifiers
+#### Collisions 
 
 If two assets have the same name (should be rare thanks to the folder prefix), try to use a qualifier at the end.
 

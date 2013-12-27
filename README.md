@@ -11,13 +11,13 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 * Use lower case
 * No spaces or special characters (use dashes)
 
-**Format:**
+**Format**
 
 ```
 assets/subfolder/
 ```
 
-**For example:**
+**For example**
 
 ```
 images/top/
@@ -163,7 +163,7 @@ fb.png
 tw.png
 ```
 
-## Acknowledgments
+## Acknowledgment
 
 This guide was inspired by the [NYTimes Style Guide](https://github.com/NYTimes/objective-c-style-guide) and [Font Awesome](http://fontawesome.io/) naming conventions.
 

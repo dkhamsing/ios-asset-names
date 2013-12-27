@@ -29,7 +29,7 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 assets/subfolder/
 ```
 
-**For example**
+**Examples**
 
 ```
 images/top/
@@ -64,7 +64,7 @@ asset@2x.png
 project-folder-asset-name.png
 ```
 
-**For example**
+**Examples**
 
 ```
 ss-intro-arrow-right.png 
@@ -77,7 +77,7 @@ bpc-intro-arrow-right.png
 * Use lower case
 * No spaces or special characters (use dashes)
 
-**For example**
+**Examples**
 ```
 ss-rack-minus.png 
 ss-top-bars.png 
@@ -150,7 +150,7 @@ ss-top-arrow-square-right.png
 
 Use American over British spelling (sorry M'lady)
 
-**For example**
+**Examples**
 ```
 ss-top-hanger-gray.png  
 ss-tree-color-swatch.png 
@@ -167,7 +167,7 @@ colour-swatch.png
 
 Do not abbreviate
 
-**For example**
+**Examples**
 ```
 ss-share-facebook.png 
 ss-share-twitter.png  

@@ -1,6 +1,6 @@
 # Guide for Naming Assets in iOS Projects
 
-This guide outlines [naming conventions](#naming) to help graphic designers and developers manage image icons (or assets) generated for iOS projects. 
+This guide outlines [naming conventions](#naming) to help graphic designers and developers manage assets (images) generated for iOS projects. 
 
 Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/issues), [pull requests](https://github.com/dkhamsing/ios-asset-names/pulls), or [twitter](https://twitter.com/alldonegoodbye).
 
@@ -18,11 +18,11 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 
 
 ## Folders
-* Use a main folder (usually named `assets` or `images`) 
+* Use a main folder to store the assets (usually named `assets` or `images`)
 * Organize the assets in subfolders named after sections or logical grouping of the app (agree on the subfolder names when reviewing the mockups/designs)
 * Use lower case
 * No spaces or special characters (use dashes)
-* Format: `assets`/`subfolder`/
+* Format: `images`/`subfolder`/
 
 
 ```
@@ -36,7 +36,7 @@ images/tutorial/
 ## Asset Type
 
 * Use the [PNG format](http://en.wikipedia.org/wiki/Portable_Network_Graphics) when possible
-* Determine if transparency is needed ([UIButton tap issue](http://stackoverflow.com/questions/17368803/how-can-i-make-uibutton-respond-to-touch-on-the-transparent-areas-of-a-png-image))
+	* Determine if transparency is needed ([UIButton tap issue](http://stackoverflow.com/questions/17368803/how-can-i-make-uibutton-respond-to-touch-on-the-transparent-areas-of-a-png-image))
 * Create 1x and 2x assets in the same folder 
 * Add `@2x` at the end of the [retina asset name](https://developer.apple.com/library/mac/documentation/GraphicsAnimation/Conceptual/HighResolutionOSX/Optimizing/Optimizing.html)
 
@@ -95,7 +95,7 @@ Sometimes the name is well represented by its function (see [Charbase](http://ww
 
 #### Collisions 
 
-If two assets have the same name (should be rare thanks to the folder prefix), try to use a qualifier at the end.
+Should two assets have the same name, add a qualifier at the end.
 
 
 ##### Color qualifer

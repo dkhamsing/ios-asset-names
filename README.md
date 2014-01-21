@@ -81,17 +81,17 @@ selected.png
 
 #### Notable
 
-* `chevron` for >
-* `caret` for ►
+* `chevron` for `>`
+* `caret` for `►`
 
 #### Special cases 
 
-Sometimes the name is well represented by its function (see [Charbase](http://www.charbase.com/21bb-unicode-clockwise-open-circle-arrow))
+Sometimes the name is well represented by its function (refer to [Charbase](http://www.charbase.com/21bb-unicode-clockwise-open-circle-arrow) for Unicode)
 
-* `refresh` for ⟳ open circle arrow (U+21BB)  
-* `edit` for ✎ pencil (U+270E) 
-* `search` for 🔍 magnifying glass (U+1F50D) 
-* `user` for 👤 bust in silhouette (U+1F464) 
+* `refresh` for `open circle arrow` (⟳ U+21BB)  
+* `edit` for `pencil` (✎ U+270E) 
+* `search` for `magnifying glass` (🔍 U+1F50D) 
+* `user` for `bust in silhouette` (👤 U+1F464) 
 
 #### Collisions 
 

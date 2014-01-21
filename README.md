@@ -18,6 +18,8 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 
 
 ## Folders
+
+* If you are using Xcode 5's [Asset Catalogs](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/Recipe.html), folders are created automatically and you can skip [ahead](#asset-type)
 * Use a main folder to store the assets (usually named `assets` or `images`)
 * Organize the assets in subfolders named after sections or logical grouping of the app (agree on the subfolder names when reviewing the mockups/designs)
 * Use lower case
@@ -50,8 +52,8 @@ asset@2x.png
 ### Prefixes
 
 * Prefix the asset with a 2-letter prefix (or 3-letter) representing the `project` so you can tell which project it belongs to
-* Subsequently, prefix the asset using the `folder` name so you can tell which folder it belongs to 
-* Format: `project`-`folder`-asset-name.png
+* If you are not using Asset Catalogs: add another prefix using the `folder` name so you can tell which folder it belongs to 
+* Format: `project`-`folder`-`asset-name`.png
 
 ```
 ss-intro-arrow-right.png 
@@ -167,4 +169,6 @@ tw.png
 ## Acknowledgment
 
 This guide was inspired by the [NYTimes Objective-C Style Guide](https://github.com/NYTimes/objective-c-style-guide) and the [Font Awesome](http://fontawesome.io/) naming conventions.
+
+Special thanks to the following individuals for their feedback: Ash Furrow, Sergio Campama.
 

@@ -166,5 +166,5 @@ tw.png
 
 ## Acknowledgment
 
-This guide was inspired by the [NYTimes Objective-C Style Guide](https://github.com/NYTimes/objective-c-style-guide) and [Font Awesome](http://fontawesome.io/) naming conventions.
+This guide was inspired by the [NYTimes Objective-C Style Guide](https://github.com/NYTimes/objective-c-style-guide) and the [Font Awesome](http://fontawesome.io/) naming conventions.
 

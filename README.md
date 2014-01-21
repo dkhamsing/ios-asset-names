@@ -62,7 +62,7 @@ bpc-intro-arrow-right.png
 
 ### Conventions
 
-* **The asset name describes the icon**, not the function of the icon (when possible, there are also [special cases](#special-cases))
+* **The asset name describes the icon**, not the function of the icon (when possible, see [special cases](#special-cases))
 * Use lower case
 * No spaces or special characters (use dashes)
 
@@ -88,7 +88,7 @@ selected.png
 
 #### Special cases 
 
-Sometimes the name is well represented by its function (refer to [Charbase](http://www.charbase.com/21bb-unicode-clockwise-open-circle-arrow) for Unicode)
+Sometimes the name is well represented by its function (refer to [Charbase](http://www.charbase.com/21bb-unicode-clockwise-open-circle-arrow) for Unicode).
 
 * `refresh` for `open circle arrow` (⟳ U+21BB)  
 * `edit` for `pencil` (✎ U+270E) 
@@ -135,7 +135,7 @@ ss-top-arrow-square-right.png
 
 ### Spelling
 
-Use American over British spelling (sorry M'lady)
+Use American over British spelling (sorry M'lady).
 
 **Examples**
 ```
@@ -152,7 +152,7 @@ colour-swatch.png
 
 ### Abbreviations
 
-Do not abbreviate
+Do not abbreviate.
 
 **Examples**
 ```

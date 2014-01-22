@@ -35,6 +35,8 @@ images/share/
 images/tutorial/ 
 ```
 
+For universal apps, it might be worthwhile to add one more folder level named after the device: `images`/`iphone`/`subfolder`, `images`/`ipad`/`subfolder` (see Apple's [device modifier convention](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/App-RelatedResources/App-RelatedResources.html), especially for launch images)
+
 ## Asset Type
 
 * Use the [PNG format](http://en.wikipedia.org/wiki/Portable_Network_Graphics) when possible

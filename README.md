@@ -85,6 +85,8 @@ menu.png
 selected.png
 ```
 
+While CamelCase is the convention in Objective-C, it does not necessarily mean it needs to be applied to asset names (by all means feel free to use it if you prefer `SSRackMinus.png`).
+
 #### Notable
 
 * `chevron` for `>`

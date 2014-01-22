@@ -41,12 +41,13 @@ images/tutorial/
 	* Determine if transparency is needed ([UIButton tap issue](http://stackoverflow.com/questions/17368803/how-can-i-make-uibutton-respond-to-touch-on-the-transparent-areas-of-a-png-image))
 * Create 1x and 2x assets in the same folder 
 * Add `@2x` at the end of the [retina asset name](https://developer.apple.com/library/mac/documentation/GraphicsAnimation/Conceptual/HighResolutionOSX/Optimizing/Optimizing.html)
-	* To save disk space or time, one can omit the 1x or 2x asset: the system automatically scales up or down for the appropriate resolution (in particular, you could provide only 2x assets when targeting retina devices)
 
 ```
 asset.png
 asset@2x.png
 ```
+
+To save disk space or time, one can omit the 1x or 2x asset: the system automatically scales up or down for the appropriate resolution (in particular, you could provide only 2x assets when targeting retina devices). 
 
 ## Naming
 

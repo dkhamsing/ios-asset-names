@@ -19,11 +19,11 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 
 ## Folders
 
-* If you are using Xcode 5's [Asset Catalogs](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/Recipe.html), folders are created automatically and you can skip [ahead](#asset-type)
-* Use a main folder to store the assets (usually named `assets` or `images`)
-* Organize the assets in subfolders named after sections or logical grouping of the app (agree on the subfolder names when reviewing the mockups/designs)
-* Use lower case
-* No spaces or special characters (use dashes)
+* If you are using Xcode 5's [Asset Catalogs](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/Recipe.html), folders are created automatically and you can skip [ahead](#asset-type).
+* Use a main folder to store the assets (usually named `assets` or `images`).
+* Subfolders are useful if the number of assets is overwhelming, the idea is to break the user interface in sections / logical groupings and have subfolders representing them (agree on the subfolder structure and names when reviewing the mockups/designs). 
+* Use lower case.
+* No spaces or special characters (use dashes).
 * Format: `images`/`subfolder`/
 
 
@@ -55,9 +55,9 @@ To save disk space or time, one can omit the 1x or 2x asset: the system automati
 
 ### Prefixes
 
-* Using prefixes is optional
-* Prefix the asset with a 2-letter prefix (or 3-letter) representing the `project` so you can tell which project it belongs to
-* If you are not using Asset Catalogs: add another prefix using the `folder` name so you can tell which folder it belongs to 
+* Using prefixes is optional.
+* Prefix the asset with a 2-letter prefix (or 3-letter) representing the `project` so you can tell which project it belongs to.
+* If you are not using Asset Catalogs: add another prefix using the `folder` name so you can tell which folder it belongs to. 
 * Format: `project`-`folder`-`asset-name`.png
 
 ```
@@ -67,9 +67,9 @@ bpc-intro-arrow-right.png
 
 ### Conventions
 
-* **The asset name describes the icon**, not the function of the icon (when possible, see [special cases](#special-cases))
-* Use lower case
-* No spaces or special characters (use dashes)
+* **The asset name describes the icon**, not the function of the icon (when possible, see [special cases](#special-cases)).
+* Use lower case.
+* No spaces or special characters (use dashes).
 
 **Examples**
 ```

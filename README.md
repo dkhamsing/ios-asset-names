@@ -55,6 +55,7 @@ To save disk space or time, one can omit the 1x or 2x asset: the system automati
 
 ### Prefixes
 
+* Using prefixes is optional
 * Prefix the asset with a 2-letter prefix (or 3-letter) representing the `project` so you can tell which project it belongs to
 * If you are not using Asset Catalogs: add another prefix using the `folder` name so you can tell which folder it belongs to 
 * Format: `project`-`folder`-`asset-name`.png
@@ -100,6 +101,7 @@ Sometimes the name is well represented by its function (refer to [Charbase](http
 * `edit` for `pencil` (✎ U+270E) 
 * `search` for `magnifying glass` (🔍 U+1F50D) 
 * `user` for `bust in silhouette` (👤 U+1F464) 
+* `comment` for `speech balloon` (💬 U+1F4AC)
 
 #### Collisions 
 

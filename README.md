@@ -8,7 +8,7 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 * [Folders](#folders)
 * [Asset Type](#asset-type)
 * [Naming](#naming)
-	* [Prefixing](#prefixing)
+	* [Prefixing](#prefixing-optional)
 	* [Conventions](#conventions)
 	* [Special cases](#special-cases)
 	* [Collisions](#collisions)
@@ -53,9 +53,8 @@ To save disk space or time, one can omit the 1x or 2x asset: the system automati
 
 ## Naming
 
-### Prefixing
+### Prefixing (optional)
 
-* Prefixing is optional (it could be redudant).
 * Prefix the asset with a 2 or 3 letter prefix representing the `project` so you can tell which project it belongs to.
 * If you are not using Asset Catalogs: add another prefix using the `folder` name so you can tell which folder it belongs to. 
 * Format: `project`-`folder`-`asset-name`.png
@@ -64,6 +63,8 @@ To save disk space or time, one can omit the 1x or 2x asset: the system automati
 ss-intro-arrow-right.png 
 bpc-intro-arrow-right.png 
 ```
+
+Prefixing can be useful but it is optional because it can get redundant.
 
 ### Conventions
 

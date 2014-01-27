@@ -8,7 +8,7 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 * [Folders](#folders)
 * [Asset Type](#asset-type)
 * [Naming](#naming)
-	* [Prefixing](#prefixing-optional)
+	* [Prefixing](#prefixing)
 	* [Conventions](#conventions)
 	* [Special cases](#special-cases)
 	* [Collisions](#collisions)
@@ -19,7 +19,7 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 
 ## Folders
 
-* If you are using Xcode 5's [Asset Catalogs](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/Recipe.html), folders are created automatically and you can skip [ahead](#asset-type).
+* If you are using Xcode 5's [Asset Catalogs](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/Recipe.html), folders and names are created automatically but you might want to manage at least the naming yourself so keep reading. 
 * Use a main folder to store the assets (usually named `assets` or `images`).
 * Subfolders are useful if the number of assets is overwhelming, the idea is to break the user interface in sections / logical groupings and have subfolders representing them (agree on the subfolder structure and names when reviewing the mockups/designs). 
 * Use lower case.
@@ -53,18 +53,17 @@ To save disk space or time, one can omit the 1x or 2x asset: the system automati
 
 ## Naming
 
-### Prefixing (optional)
+### Prefixing
 
+* Prefixing is optional but it ensures that asset names are unique across the project.
 * Prefix the asset with a 2 or 3 letter prefix representing the `project` so you can tell which project it belongs to.
-* If you are not using Asset Catalogs: add another prefix using the `folder` name so you can tell which folder it belongs to. 
+* Add another prefix using the `folder` name so you can tell which folder it belongs to. 
 * Format: `project`-`folder`-`asset-name`.png
 
 ```
 ss-intro-arrow-right.png 
 bpc-intro-arrow-right.png 
 ```
-
-Prefixing can be useful but it is optional because it can get redundant.
 
 ### Conventions
 

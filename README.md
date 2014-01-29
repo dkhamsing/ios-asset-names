@@ -28,11 +28,13 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 
 
 ```
-images/top/
 images/about/
-images/web-browser/
+images/misc/
 images/share/
+images/top/
 images/tutorial/ 
+images/web-browser/
+
 ```
 
 For universal apps, it might be worthwhile to add one more folder level named after the device: `images`/`iphone`/`subfolder`, `images`/`ipad`/`subfolder` (see Apple's [device modifier convention](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/App-RelatedResources/App-RelatedResources.html), especially for launch images).

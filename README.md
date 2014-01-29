@@ -8,6 +8,7 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 * [Folders](#folders)
 * [Asset Type](#asset-type)
 * [Naming](#naming)
+	* [Uniqueness](#uniqueness)
 	* [Prefixing](#prefixing)
 	* [Conventions](#conventions)
 	* [Special cases](#special-cases)
@@ -21,11 +22,10 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 
 * If you are using Xcode 5's [Asset Catalogs](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/Recipe.html), folders and names are created automatically but you might want to manage at least the naming yourself so keep reading. 
 * Use a main folder to store the assets (usually named `assets` or `images`).
-* Subfolders are useful if the number of assets is overwhelming, the idea is to break the user interface in sections / logical groupings and have subfolders representing them (agree on the subfolder structure and names when reviewing the mockups/designs). 
-* Use lower case.
-* No spaces or special characters (use dashes).
-* Format: `images`/`subfolder`/
-
+	* Option 1: Keep all assets in one folder, this may seem radical but it could work in conjunction with [prefixing](#prefixing).
+	* Option 2: Use subfolders
+		* Break the user interface in sections / logical groupings and have subfolders representing them (agree on the subfolder structure and names when reviewing the mockups/designs). However subfolders can create problems with asset name [uniqueness](#uniqueness).
+		* Format: `images`/`subfolder`/
 
 ```
 images/about/
@@ -36,6 +36,11 @@ images/tutorial/
 images/web-browser/
 
 ```
+
+* Use lower case.
+* No spaces or special characters (use dashes).
+
+
 
 For universal apps, it might be worthwhile to add one more folder level named after the device: `images`/`iphone`/`subfolder`, `images`/`ipad`/`subfolder` (see Apple's [device modifier convention](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/App-RelatedResources/App-RelatedResources.html), especially for launch images).
 
@@ -55,9 +60,17 @@ To save disk space or time, one can omit the 1x or 2x asset: the system automati
 
 ## Naming
 
+### Uniqueness
+
+An important attribute of an asset name is uniqueness.
+
+* This prevents confusion: for example having a `share` asset in the iPhone interface and having another `share` asset for the iPad.
+* More importantly, while it is possible in Xcode to have two files of the same names from two folders, you can only reference one of them using `+ (UIImage *)imageNamed:(NSString *)name`.
+
 ### Prefixing
 
-* Prefixing is optional but it ensures that asset names are unique across the project.
+Prefixing is optional but it ensures that asset names are unique across the project.
+
 * Prefix the asset with a 2 or 3 letter prefix representing the `project` so you can tell which project it belongs to.
 * Add another prefix using the `folder` name so you can tell which folder it belongs to. 
 * Format: `project`-`folder`-`asset-name`.png

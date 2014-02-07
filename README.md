@@ -64,8 +64,8 @@ To save disk space or time, one can omit the 1x or 2x asset: the system automati
 
 An important attribute of an asset name is uniqueness.
 
-* This prevents confusion: for example having a `share` asset in the iPhone interface and having another `share` asset for the iPad.
-* More importantly, while it is possible in Xcode to have two files of the same names from two folders, you can only reference one of them using `+ (UIImage *)imageNamed:(NSString *)name`.
+* This prevents confusion: for example having two different `share` assets (say one for iPhone and one for iPad, or one in a main view and one in a detail view).
+* More importantly, while it is possible in Xcode to have two files of the same names in different folders, you can only reference one of them using `+ (UIImage *)imageNamed:(NSString *)name`.
 
 ### Prefixing
 

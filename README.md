@@ -2,7 +2,7 @@
 
 This guide outlines [naming conventions](#naming) to help graphic designers and developers manage a large number of assets (images) prepared for iOS projects. 
 
-Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/issues), [pull requests](https://github.com/dkhamsing/ios-asset-names/pulls), or [twitter](https://twitter.com/alldonegoodbye).
+Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/issues), [pull requests](https://github.com/dkhamsing/ios-asset-names/pulls), or [twitter](https://twitter.com/dkhamsing).
 
 ## Table Of Contents
 * [Folders](#folders)

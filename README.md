@@ -158,7 +158,7 @@ ss-top-arrow-square-right.png
 
 ### Spelling
 
-Use American over British spelling (sorry M'lady).
+In the US, we would favor American over British spelling (sorry M'lady).
 
 **Examples**
 ```

@@ -20,7 +20,7 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 
 ## Folders
 
-* If you are using [Asset Catalogs](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/Recipe.html) introduced with Xcode 5, folders and names are created *automatically* but you might want name assets (image sets) yourself so keep reading. 
+* If you are using [Asset Catalogs](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/Recipe.html) introduced with Xcode 5, folders and names are created *automatically* but you might want to name assets (image sets) yourself so keep reading. 
 * Use a main folder to store the assets (usually named `assets` or `images`).
 	* Option 1: Keep all assets in one folder, this may seem radical but it could work in conjunction with [prefixing](#prefixing).
 	* Option 2: Use subfolders

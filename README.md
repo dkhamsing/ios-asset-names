@@ -46,8 +46,10 @@ For universal apps, it might be worthwhile to add one more folder level named af
 
 ## Asset Type
 
-* Use the [PNG format](http://en.wikipedia.org/wiki/Portable_Network_Graphics) when possible
-	* Determine if transparency is needed ([UIButton tap issue](http://stackoverflow.com/questions/17368803/how-can-i-make-uibutton-respond-to-touch-on-the-transparent-areas-of-a-png-image))
+* Use the [PNG format](http://en.wikipedia.org/wiki/Portable_Network_Graphics) 
+	* PNG is good for small assets
+	* PNG is non-lossy
+	* PNG supports transparency (be aware of a [UIButton tap issue](http://stackoverflow.com/questions/17368803/how-can-i-make-uibutton-respond-to-touch-on-the-transparent-areas-of-a-png-image))
 * Create 1x and 2x assets in the same folder 
 * Add `@2x` at the end of the [retina asset name](https://developer.apple.com/library/mac/documentation/GraphicsAnimation/Conceptual/HighResolutionOSX/Optimizing/Optimizing.html)
 

@@ -24,7 +24,7 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 * Use a main folder to store the assets (usually named `assets` or `images`).
 	* Option 1: Keep all assets in one folder, this may seem radical but it could work in conjunction with [prefixing](#prefixing).
 	* Option 2: Use subfolders
-		* Break the user interface in sections / logical groupings and have subfolders representing them (agree on the subfolder structure and names when reviewing the mockups/designs). However subfolders can create problems with asset name [uniqueness](#uniqueness).
+		* Break the user interface in sections (logical groupings or namespaces) and create subfolders for them (agree on names when reviewing designs). However subfolders can create problems with asset name [uniqueness](#uniqueness).
 		* Format: `images`/`subfolder`/
 
 ```
@@ -74,8 +74,8 @@ An important attribute of an asset name is uniqueness.
 Prefixing is optional but it ensures that asset names are unique across the project.
 
 * Prefix the asset with a 2 or 3 letter prefix representing the `project` so you can tell which project it belongs to.
-* Add another prefix using the `folder` name so you can tell which folder it belongs to. 
-* Format: `project`-`folder`-`asset-name`.png
+* Add another prefix using the `folder` name or `namespace` so you can quickly organize your assets.
+* Format: `project`-`namespace`-`asset-name`.png
 
 ```
 ss-intro-arrow-right.png 

@@ -147,7 +147,7 @@ ss-top-arrow-right-square.png
 
 * `*-square-o` for square outline
 
-##### Direction qualifer (always at the end)
+##### Direction qualifer 
 
 * `*-right`
 * `*-left`
@@ -156,6 +156,17 @@ ss-top-arrow-right-square.png
 ```
 ss-top-arrow-right.png
 ss-top-arrow-square-right.png
+```
+
+##### Buttons (control states)
+
+* `*-normal`
+* `*-selected`
+* `*-highlighted`, etc
+
+```
+ss-profile-gear-normal.png
+ss-profile-gear-highlighted.png
 ```
 
 ### Spelling

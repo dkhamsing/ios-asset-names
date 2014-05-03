@@ -15,7 +15,6 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 	* [Collisions](#collisions)
 	* [Spelling](#spelling)
 	* [Abbreviations](#abbreviations)
-	* [Orientation](#orientation)
 * [Acknowledgment](#acknowledgment)
 
 
@@ -169,6 +168,13 @@ ss-profile-gear-normal.png
 ss-profile-gear-highlighted.png
 ```
 
+##### Orientation
+This is adapated from Apple's [launch images guidelines](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/App-RelatedResources/App-RelatedResources.html).
+
+* `*-portrait`
+* `*-landscape`
+* `*-landscape-right`, etc
+
 ### Spelling
 
 In the US, we would favor American over British spelling (sorry M'lady).
@@ -201,14 +207,6 @@ ss-share-twitter.png
 fb.png
 tw.png
 ```
-
-### Orientation
-This is adapated from Apple's [launch images guidelines](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/App-RelatedResources/App-RelatedResources.html).
-
-* `*-portrait`
-* `*-landscape`
-* `*-landscape-right`, etc
-
 
 ## Acknowledgment
 

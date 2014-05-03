@@ -16,7 +16,7 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 	* [Spelling](#spelling)
 	* [Abbreviations](#abbreviations)
 	* [Orientation](#orientation)
-* [Acknowledgment](#acknowledgement)
+* [Acknowledgment](#acknowledgment)
 
 
 ## Folders

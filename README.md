@@ -21,20 +21,22 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 ## Folders
 
 * If you are using [Asset Catalogs](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/Recipe.html) introduced in Xcode 5, folders and names are created *automatically*. However it might be preferable to control the naming of assets (image sets).
-* Use a main folder to store the assets (usually named `assets` or `images`). For universal apps, this folder itself can be under a device folder (`iphone` or `ipad`). 
+* Use a main folder to store the assets (usually named `assets` or `images`). For universal apps, this folder itself can be under a device folder (`iphone`, `ipad`). 
 	* Option 1: Keep all assets in one folder, this may seem radical but it could work in conjunction with [prefixing](#prefixing).
 	* Option 2: Use subfolders
 		* Break the user interface in sections (logical groupings or namespaces) and create subfolders for them (agree on names when reviewing designs). Be aware that subfolders can create problems with asset name [uniqueness](#uniqueness).
 		* Format: `images`/`subfolder`/
 
 ```
-images/about/
-images/misc/
-images/share/
-images/top/
-images/tutorial/ 
-images/web-browser/
-
+ipad/
+	images/
+		about/
+		detail/
+		list/
+		share/
+		tutorial/ 
+iphone/
+	...
 ```
 
 * Use lower case.

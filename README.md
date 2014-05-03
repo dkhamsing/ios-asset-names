@@ -15,6 +15,7 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 	* [Collisions](#collisions)
 	* [Spelling](#spelling)
 	* [Abbreviations](#abbreviations)
+	* [Orientation](#orientation)
 * [Acknowledgment](#acknowledgement)
 
 
@@ -40,9 +41,7 @@ images/web-browser/
 * Use lower case.
 * No spaces or special characters (use dashes).
 
-
-
-For universal apps, it might be worthwhile to add one more folder level named after the device: `images`/`iphone`/`subfolder`, `images`/`ipad`/`subfolder` (see Apple's [device modifier convention](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/App-RelatedResources/App-RelatedResources.html), especially for launch images).
+For universal apps, the `images` folder itself can be under a device folder (`iphone` or `ipad`). 
 
 ## Asset Type
 
@@ -74,12 +73,13 @@ An important attribute of an asset name is uniqueness.
 Prefixing is optional but it ensures that asset names are unique across the project.
 
 * Prefix the asset with a 2 or 3 letter prefix representing the `project` so you can tell which project it belongs to.
+* Add a device prefix, especially for universal apps.
 * Add another prefix using the `folder` name or `namespace` so you can quickly organize your assets.
-* Format: `project`-`namespace`-`asset-name`.png
+* Format: `project`-`device`-`namespace`-`asset-name`.png
 
 ```
-ss-intro-arrow-right.png 
-bpc-intro-arrow-right.png 
+ss-ipad-intro-arrow-right.png 
+bpc-iphone-intro-arrow-right.png 
 ```
 
 ### Conventions
@@ -201,6 +201,14 @@ ss-share-twitter.png
 fb.png
 tw.png
 ```
+
+### Orientation
+This is adapated from Apple's [launch images guidelines](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/App-RelatedResources/App-RelatedResources.html).
+
+* `*-portrait`
+* `*-landscape`
+* `*-landscape-right`, etc
+
 
 ## Acknowledgment
 

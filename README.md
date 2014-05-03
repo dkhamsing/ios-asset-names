@@ -20,27 +20,28 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 
 ## Folders
 
-* If you are using [Asset Catalogs](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/Recipe.html) introduced with Xcode 5, folders and names are created *automatically* but you might want to name assets (image sets) yourself so keep reading. 
-* Use a main folder to store the assets (usually named `assets` or `images`).
+* If you are using [Asset Catalogs](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/Recipe.html) introduced in Xcode 5, folders and names are created *automatically*. However it might be preferable to control the naming of assets (image sets).
+* Use a main folder to store the assets (usually named `assets` or `images`). For universal apps, this folder itself can be under a device folder (`iphone`, `ipad`). 
 	* Option 1: Keep all assets in one folder, this may seem radical but it could work in conjunction with [prefixing](#prefixing).
 	* Option 2: Use subfolders
 		* Break the user interface in sections (logical groupings or namespaces) and create subfolders for them (agree on names when reviewing designs). Be aware that subfolders can create problems with asset name [uniqueness](#uniqueness).
 		* Format: `images`/`subfolder`/
 
 ```
-images/about/
-images/misc/
-images/share/
-images/top/
-images/tutorial/ 
-images/web-browser/
-
+ipad/
+	images/
+		about/
+		detail/
+		list/
+		share/
+		tutorial/ 
+iphone/
+	...
 ```
 
 * Use lower case.
 * No spaces or special characters (use dashes).
 
-For universal apps, the `images` folder itself can be under a device folder (`iphone` or `ipad`). 
 
 ## Asset Type
 
@@ -213,3 +214,7 @@ tw.png
 This guide was inspired by the [NYTimes Objective-C Style Guide](https://github.com/NYTimes/objective-c-style-guide) and the [Font Awesome](http://fontawesome.io/) naming conventions.
 
 Special thanks to the following individuals for their feedback: [Ash Furrow](https://github.com/AshFurrow), [Sergio Campama](https://github.com/sergiocampama), [Matteo Crippa](https://github.com/matteocrippa), [Marco Sousa](https://news.layervault.com/stories/13379-guide-for-naming-assets-in-ios-projects), [Dave McKinney](https://twitter.com/davidkmckinney). 
+
+## Contact
+- [github.com/dkhamsing](https://github.com/dkhamsing)
+- [twitter.com/dkhamsing](https://twitter.com/dkhamsing)

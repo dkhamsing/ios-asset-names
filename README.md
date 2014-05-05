@@ -78,6 +78,15 @@ Prefixing is optional but it ensures that asset names are unique across the proj
 ```
 ss-ipad-intro-arrow-right.png 
 bpc-iphone-intro-arrow-right.png 
+
+twitter-iphone-navigation-bar-profile.png
+twitter-iphone-navigation-bar-search.png
+twitter-iphone-navigation-bar-write.png
+
+tumblr-iphone-card-action.png
+tumblr-iphone-card-bubble.png
+tumblr-iphone-card-reblog.png
+tumblr-iphone-card-heart.png
 ```
 
 ### Conventions

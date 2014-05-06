@@ -20,14 +20,25 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 
 
 ## Namespace
-Break up the user interface of each screen into *namespaces* (or sections). Each namespace would represent a logical grouping for the assets (see [prefixing](#prefixing)).
+Naming an asset starts with breaking up the user interface of each screen into *namespaces* (or sections). Each namespace would represent a logical grouping for the assets and can be used to [create asset names](#naming).
+
+* Shorter is better (one word if possible).
+* No spaces or special characters (use dashes).
+ 
+A namespace like `tab` can span several screens.
 
 **Examples**
 
 ![](assets/namespace.PNG)
 
+- `navigation` or `top-bar`
+- `me` or `profile`
+- `tab`
 
 ![](assets/namespace2.PNG)
+
+- `card` 
+
 
 ## Asset Folder
 
@@ -35,16 +46,16 @@ Use a main folder to *store all assets* for the app (usually named `assets` or `
 
 * Another option is to use subfolders for each namespace but be aware that subfolders can create problems with asset name [uniqueness](#uniqueness).
 * For universal apps, this folder itself can be under a device folder (`iphone`, `ipad`).
-* If you are using [Asset Catalogs](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/Recipe.html) introduced in Xcode 5, folders and names are created *automatically*. However it might be preferable to control the naming of assets (image sets).
+* If you are using [Asset Catalogs](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/Recipe.html) introduced in Xcode 5, folders and names are created *automatically*. However it might be preferable to control the naming of assets (image sets), especially when collaborating with a designer.
 * For extra credit, check out [Structuring an iOS Project](http://www.sebastianrehnby.com/blog/2013/01/15/structuring-an-ios-project/) by [Sebastian Rehnby](https://github.com/sebreh).
 
 
 ## Asset Type
 
-* Use the [PNG format](http://en.wikipedia.org/wiki/Portable_Network_Graphics) (use JPG for photos)
+* Use the [PNG format](http://en.wikipedia.org/wiki/Portable_Network_Graphics) (the JPG format is better for photos)
 	* PNG is good for small assets
 	* PNG is non-lossy
-	* PNG supports transparency (be aware of a [UIButton tap issue](http://stackoverflow.com/questions/	17368803/how-can-i-make-uibutton-respond-to-touch-on-the-transparent-areas-of-a-png-image))
+	* PNG supports transparency 
 * Create 1x and 2x assets in the same folder 
 * Add `@2x` at the end of the [retina asset name](https://developer.apple.com/library/mac/documentation/GraphicsAnimation/Conceptual/HighResolutionOSX/Optimizing/Optimizing.html)
 
@@ -70,8 +81,8 @@ An important attribute of an asset name is uniqueness.
 
 Prefixing is optional but it ensures that asset names are unique across the project.
 
-* Prefix the asset with a 2 or 3 letter prefix representing the `project` so you can tell which project it belongs to.
-* Add a device prefix, especially for universal apps.
+* Prefix the asset with the app name so you can tell which project it belongs to (use a 2 or 3 letter prefix for long app names).
+* Add a device prefix (especially for universal apps with device-specific assets).
 * Add another prefix using the `namespace` so you can quickly organize your assets.
 * Format: `project`-`device`-`namespace`-`asset-name`.png
 
@@ -79,9 +90,9 @@ Prefixing is optional but it ensures that asset names are unique across the proj
 ss-ipad-intro-arrow-right.png 
 bpc-iphone-intro-arrow-right.png 
 
-twitter-iphone-navigation-bar-profile.png
-twitter-iphone-navigation-bar-search.png
-twitter-iphone-navigation-bar-write.png
+twitter-iphone-navigation-user.png
+twitter-iphone-navigation-search.png
+twitter-iphone-navigation-write.png
 
 tumblr-iphone-card-action.png
 tumblr-iphone-card-bubble.png

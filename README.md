@@ -23,7 +23,7 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 Naming an asset starts with breaking up the user interface of each screen into *namespaces* (or sections). Each namespace would represent a logical grouping for the assets and can be used to [create asset names](#naming).
 
 * Shorter is better (one word if possible).
-* Use meaningful namespace name
+* Meaningful namespace name.
 * Use lower case.
 * No spaces or special characters (use dashes).
  

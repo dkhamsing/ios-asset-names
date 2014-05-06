@@ -38,7 +38,7 @@ A namespace like `tab` can span several screens.
 
 ![](assets/namespace2.PNG)
 
-- `card` 
+- `card` or `post` 
 - `tab`
 
 

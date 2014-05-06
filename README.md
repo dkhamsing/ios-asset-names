@@ -32,7 +32,7 @@ A namespace like `tab` can span several screens.
 
 ![](assets/namespace.PNG)
 
-- `top-bar` (shorter than `navigation-bar`)
+- `top` or `top-bar` (shorter than `navigation-bar`)
 - `me` (`profile` might be more meaningful)
 - `tab`
 
@@ -91,9 +91,9 @@ Prefixing is optional but it ensures that asset names are unique across the proj
 ss-ipad-intro-arrow-right.png 
 bpc-iphone-intro-arrow-right.png 
 
-twitter-iphone-navigation-user.png
-twitter-iphone-navigation-search.png
-twitter-iphone-navigation-write.png
+twitter-iphone-top-user.png
+twitter-iphone-top-search.png
+twitter-iphone-top-write.png
 
 tumblr-iphone-card-action.png
 tumblr-iphone-card-comment.png

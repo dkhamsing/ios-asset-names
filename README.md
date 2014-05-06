@@ -32,13 +32,14 @@ A namespace like `tab` can span several screens.
 
 ![](assets/namespace.PNG)
 
-- `navigation` or `top-bar`
-- `me` or `profile`
+- `top-bar` (shorter than `navigation-bar`)
+- `me` (`profile` might be more meaningful)
 - `tab`
 
 ![](assets/namespace2.PNG)
 
 - `card` 
+- `tab`
 
 
 ## Asset Folder

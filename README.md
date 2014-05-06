@@ -33,6 +33,8 @@ Namespaces can correspond to view controllers, typical namespaces are `top`, `bo
 
 ![](assets/namespace1.PNG)
 
+Twitter
+
 - `top` or `top-bar` (shorter than `navigation-bar`)
 - `me` (`profile` might be more meaningful)
 - `tweet`
@@ -40,10 +42,14 @@ Namespaces can correspond to view controllers, typical namespaces are `top`, `bo
 
 ![](assets/namespace2.PNG)
 
+Tumblr
+
 - `card` or `post` 
 - `tab`
 
 ![](assets/namespace3.PNG)
+
+Instagram
 
 - `top`
 - `photo`

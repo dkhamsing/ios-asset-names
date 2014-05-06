@@ -23,6 +23,7 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 Naming an asset starts with breaking up the user interface of each screen into *namespaces* (or sections). Each namespace would represent a logical grouping for the assets and can be used to [create asset names](#naming).
 
 * Shorter is better (one word if possible).
+* Use lower case.
 * No spaces or special characters (use dashes).
  
 A namespace like `tab` can span several screens.
@@ -44,8 +45,7 @@ A namespace like `tab` can span several screens.
 
 Use a main folder to *store all assets* for the app (usually named `assets` or `images`). This may seem radical but it works in conjunction with [prefixing](#prefixing).
 
-* Another option is to use subfolders for each namespace but be aware that subfolders can create problems with asset name [uniqueness](#uniqueness).
-* For universal apps, this folder itself can be under a device folder (`iphone`, `ipad`).
+* An alternative is to use subfolders for each namespace, be aware that subfolders can create problems with asset name [uniqueness](#uniqueness).
 * If you are using [Asset Catalogs](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/Recipe.html) introduced in Xcode 5, folders and names are created *automatically*. However it might be preferable to control the naming of assets (image sets), especially when collaborating with a designer.
 * For extra credit, check out [Structuring an iOS Project](http://www.sebastianrehnby.com/blog/2013/01/15/structuring-an-ios-project/) by [Sebastian Rehnby](https://github.com/sebreh).
 
@@ -83,7 +83,7 @@ Prefixing is optional but it ensures that asset names are unique across the proj
 
 * Prefix the asset with the app name so you can tell which project it belongs to (use a 2 or 3 letter prefix for long app names).
 * Add a device prefix (especially for universal apps with device-specific assets).
-* Add another prefix using the `namespace` so you can quickly organize your assets.
+* Add a `namespace` prefix so you can quickly organize your assets.
 * Format: `project`-`device`-`namespace`-`asset-name`.png
 
 ```
@@ -95,7 +95,7 @@ twitter-iphone-navigation-search.png
 twitter-iphone-navigation-write.png
 
 tumblr-iphone-card-action.png
-tumblr-iphone-card-bubble.png
+tumblr-iphone-card-comment.png
 tumblr-iphone-card-reblog.png
 tumblr-iphone-card-heart.png
 ```

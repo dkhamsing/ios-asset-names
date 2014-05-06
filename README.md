@@ -23,24 +23,37 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 Naming an asset starts with breaking up the user interface of each screen into *namespaces* (or sections). Each namespace would represent a logical grouping for the assets and can be used to [create asset names](#naming).
 
 * Shorter is better (one word if possible).
+* Meaningful namespace name.
 * Use lower case.
 * No spaces or special characters (use dashes).
  
-A namespace like `tab` can span several screens.
+Namespaces can correspond to view controllers, typical namespaces are `top`, `bottom`, `content` although more specific names are better.
 
 **Examples**
 
-![](assets/namespace.PNG)
+![](assets/namespace1.PNG)
+
+Twitter
 
 - `top` or `top-bar` (shorter than `navigation-bar`)
 - `me` (`profile` might be more meaningful)
+- `tweet`
 - `tab`
 
 ![](assets/namespace2.PNG)
 
-- `card` 
+Tumblr
+
+- `card` or `post` 
 - `tab`
 
+![](assets/namespace3.PNG)
+
+Instagram
+
+- `top`
+- `photo`
+- `tab`
 
 ## Asset Folder
 

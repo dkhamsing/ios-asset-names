@@ -6,7 +6,7 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 
 ## Table Of Contents
 * [Namespace](#namespace)
-* [Asset Folder](#asset-folders)
+* [Asset Folder](#asset-folder)
 * [Asset Type](#asset-type)
 * [Naming](#naming)
 	* [Uniqueness](#uniqueness)

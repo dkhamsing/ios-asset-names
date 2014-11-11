@@ -70,15 +70,16 @@ Use a main folder to *store all assets* for the app (usually named `assets` or `
 	* PNG is good for small assets
 	* PNG is non-lossy
 	* PNG supports transparency 
-* Create 1x and 2x assets in the same folder 
-* Add `@2x` at the end of the [retina asset name](https://developer.apple.com/library/mac/documentation/GraphicsAnimation/Conceptual/HighResolutionOSX/Optimizing/Optimizing.html)
+* Create 1x, 2x and 3x assets in the same folder 
+* Add `@2x` or `@3x` at the end of the [appropriate asset name](https://developer.apple.com/library/mac/documentation/GraphicsAnimation/Conceptual/HighResolutionOSX/Optimizing/Optimizing.html)
 
 ```
 asset.png
 asset@2x.png
+asset@3x.png
 ```
 
-To save disk space or time, one can omit the 1x or 2x asset: the system automatically scales up or down for the appropriate resolution (in particular, you could provide only 2x assets when targeting retina devices). 
+To save disk space or time, one can omit the 1x, 2x or 3x asset: the system automatically scales up or down for the appropriate resolution (in particular, you could provide only 2x/3x assets when targeting retina devices). 
 
 
 ## Naming

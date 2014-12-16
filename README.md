@@ -58,7 +58,7 @@ Instagram
 ## Asset Folder
 
 * [Asset Catalogs](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/Recipe.html) is the preferred way to manage assets in Xcode. It eliminates keeping track of files in a project. However naming assets (image sets) is still important especially when collaborating with a designer.
-* If you choose to manager assets directly, use a main folder to *store all assets* for the app (usually named `assets` or `images`). This may seem radical but it works in conjunction with [prefixing](#prefixing).
+* If you choose to manage assets directly, use a main folder to *store all assets* for the app (usually named `assets` or `images`). This may seem radical but it works in conjunction with [prefixing](#prefixing).
   * An alternative is to use subfolders for each namespace, be aware that subfolders can create problems with asset name [uniqueness](#uniqueness).
   * For extra credit, check out [Structuring an iOS Project](http://www.sebastianrehnby.com/blog/2013/01/15/structuring-an-ios-project/) by [Sebastian Rehnby](https://github.com/sebreh) and the [Synx](https://github.com/venmo/synx) project.
 

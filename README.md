@@ -256,7 +256,7 @@ tw.png
 
 This guide was inspired by the [NYTimes Objective-C Style Guide](https://github.com/NYTimes/objective-c-style-guide) and the [Font Awesome](http://fontawesome.io/) naming conventions.
 
-Special thanks to the following individuals for their feedback: [Ash Furrow](https://github.com/AshFurrow), [Sergio Campama](https://github.com/sergiocampama), [Matteo Crippa](https://github.com/matteocrippa), [Marco Sousa](https://news.layervault.com/stories/13379-guide-for-naming-assets-in-ios-projects), [Dave McKinney](https://twitter.com/davidkmckinney). 
+Special thanks to the following individuals for their feedback: [Ash Furrow](https://github.com/AshFurrow), [Sergio Campama](https://github.com/sergiocampama), [Matteo Crippa](https://github.com/matteocrippa), [Marco Sousa](https://twitter.com/h1brd), [Dave McKinney](https://twitter.com/davidkmckinney). 
 
 
 ## Contact

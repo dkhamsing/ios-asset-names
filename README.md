@@ -20,7 +20,7 @@ Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/iss
 
 
 ## Namespace
-Naming an asset starts with breaking up the user interface of each screen into *namespaces* (or sections). Each namespace would represent a logical grouping for the assets and can be used to [create asset names](#naming).
+Naming an asset starts with breaking up the user interface of each screen into *namespaces* (or sections). Each namespace represents a logical grouping for the assets and can be used to [create asset names](#naming).
 
 * Shorter is better (one word if possible).
 * Meaningful namespace name.
@@ -33,23 +33,23 @@ Namespaces can correspond to view controllers, typical namespaces are `top`, `bo
 
 ![](assets/namespace1.PNG)
 
-Twitter
+Twitter profile
 
 - `top` or `top-bar` (shorter than `navigation-bar`)
-- `me` (`profile` might be more meaningful)
+- `actions` 
 - `tweet`
 - `tab`
 
 ![](assets/namespace2.PNG)
 
-Tumblr
+Tumblr home
 
 - `card` or `post` 
 - `tab`
 
 ![](assets/namespace3.PNG)
 
-Instagram
+Instagram explore
 
 - `top`
 - `photo`

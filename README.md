@@ -254,7 +254,7 @@ tw.png
 
 ## Acknowledgment
 
-This guide was inspired by the [NYTimes Objective-C Style Guide](https://github.com/NYTimes/objective-c-style-guide) and the [Font Awesome](http://fontawesome.io/) naming conventions.
+This guide was inspired by the [NYTimes Objective-C Style Guide](https://github.com/NYTimes/objective-c-style-guide) and  [Font Awesome](http://fontawesome.io/).
 
 Special thanks to the following individuals for their feedback: [Ash Furrow](https://github.com/AshFurrow), [Sergio Campama](https://github.com/sergiocampama), [Matteo Crippa](https://github.com/matteocrippa), [Marco Sousa](https://twitter.com/h1brd), [Dave McKinney](https://twitter.com/davidkmckinney). 
 

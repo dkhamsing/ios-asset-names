@@ -208,14 +208,13 @@ ss-profile-gear-normal.png
 ss-profile-gear-highlighted.png
 ```
 
-
 ##### Orientation
-This is adapated from Apple's [launch images guidelines](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/App-RelatedResources/App-RelatedResources.html).
 
 * `*-portrait`
 * `*-landscape`
 * `*-landscape-right`, etc
 
+See more information by Apple on [Launch Files](https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/MobileHIG/LaunchImages.html).
 
 ### Spelling
 

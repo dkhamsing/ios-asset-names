@@ -1,0 +1,7 @@
+print("Hello")
+print("world")
+print("Swift")
+print("is")
+print("awesome")
+print("@dkhamsing")
+print("😇")

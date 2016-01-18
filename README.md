@@ -62,7 +62,7 @@ Instagram explore
 
 ## Asset Folder
 
-* [Asset Catalogs](https://developer.apple.com/library/prerelease/ios/documentation/Xcode/Reference/xcode_ref-Asset_Catalog_Format/) is the preferred way to manage assets in Xcode. It eliminates keeping track of files in a project. However naming assets (image sets) remains important especially when collaborating with a designer.
+* Using [Asset Catalogs](https://developer.apple.com/library/prerelease/ios/documentation/Xcode/Reference/xcode_ref-Asset_Catalog_Format/) is the preferred way to manage assets in Xcode, it eliminates keeping track of files in a project. However naming assets (image sets) remains important especially when collaborating with a designer.
 * If you choose to manage assets directly, use a main folder to *store all assets* for the app (usually named `assets` or `images`). This may seem radical but it works in conjunction with [prefixing](#prefixing).
   * An alternative is to use subfolders for each namespace, be aware that subfolders can create problems with asset name [uniqueness](#uniqueness).
   * For extra credit, check out [Structuring an iOS Project](http://www.sebastianrehnby.com/blog/2013/01/15/structuring-an-ios-project/) by [Sebastian Rehnby](https://github.com/sebreh) and the [Tools section](#tools).
@@ -92,17 +92,17 @@ To save disk space or time, one can omit the 1x, 2x or 3x asset: the system auto
 
 ### PDF
 
-Xcode 6 added support for PDF / vector icons eliminating the need for multiple resolution per assets (goodbye 1x, 2x, 3x). To use a PDF asset, create an image set in an Xcode asset catalog. Then in the Utility panel (right) set:
+Xcode 6 added support for PDF / vector icons eliminating the need for multiple resolution per asset (goodbye 1x, 2x, 3x). To use a PDF asset, create an image set in an Xcode asset catalog. Then in the Utility panel (right) set:
 
 - Devices: `Universal`
 - Scale Factors: `Single Vector`
-- Render As: `Template Image` (corresponds to setting the `UIImageRenderingMode` to `UIImageRenderingModeAlwaysTemplate`)
+- Render As: `Template Image` (corresponds to setting the `UIImageRenderingMode` property to `UIImageRenderingModeAlwaysTemplate`)
 
 ![](assets/xcode-panel.png)
 
 This last setting allows an asset to be tinted (colored). If setting up a large number of assets sounds tedious, check out a tool appropriately called [`pdf_xcassets`](#tools).
 
-PDF assets still need to be sized appropriately, i.e. the designer would provide 2 assets for an arrow if the mockup requires assets sized `20x20` and `40x40`. For more details, read [this article](http://martiancraft.com/blog/2014/09/vector-images-xcode6/).
+PDF assets still need to be sized appropriately, i.e. the designer would provide 2 assets for an arrow if the mockup required assets sized `20x20` and `40x40`. For more details, read [this article](http://martiancraft.com/blog/2014/09/vector-images-xcode6/).
 
 ### Icon Font
 

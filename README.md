@@ -118,7 +118,7 @@ Here are some tools to help you manage your assets.
 
 ### Swift Enums
 
-- [Misen](https://github.com/tasanobu/Misen): Script to support easily using Xcode Asset Catalog in Swift.
+- [Misen](https://github.com/tasanobu/Misen): Script to support using Xcode Asset Catalog in Swift.
 - [SwiftGen](https://github.com/AliSoftware/SwiftGen): A collection of Swift tools to generate Swift code (enums for your assets and more).
 
 ## Naming

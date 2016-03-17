@@ -96,7 +96,7 @@ Xcode 6 added support for PDF / vector icons eliminating the need for multiple r
 
 > re-create PNG assets at compile time, embedding the rasterized bitmaps in the final application instead of embedding the original PDF vector image. 
 
-If you add PDF files directly as resources, they can be used as vector assets which have no size restriction (like an [icon font](#icon-font)
+If you add PDF files directly as resources, they can be used as vector assets which have no size restriction (like an [icon font](#icon-font)).
 
 If you still want to use a PDF asset with assets catalogs, create an image set for each PDF asset Xcode. Then in the Utility panel (right) set:
 

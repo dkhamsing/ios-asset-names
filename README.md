@@ -113,6 +113,7 @@ Another alternative for icon generation is to use [icon fonts](http://fontawesom
 Here are some tools to help you manage your assets.
 
 - [blade](https://github.com/jondot/blade): Generate Xcode image catalogs for iOS / OSX app icons, universal images, and more.
+- [Cat2Cat](https://github.com/vokal/Cat2Cat): Generate a category on UIImage from asset catalogs in order to reduce typos and enable Xcode auto-completion.
 - [pdf_xcassets](https://github.com/dkhamsing/pdf_xcassets):  Generate Xcode xcassets for pdf assets.
 - [Synx](https://github.com/venmo/synx): A command-line tool that reorganizes your Xcode project folder to match your Xcode groups.
 

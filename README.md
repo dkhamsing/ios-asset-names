@@ -92,7 +92,13 @@ To save disk space or time, one can omit the 1x, 2x or 3x asset: the system auto
 
 ### PDF
 
-Xcode 6 added support for PDF / vector icons eliminating the need for multiple resolution per asset (goodbye 1x, 2x, 3x). To use a PDF asset, create an image set in an Xcode asset catalog. Then in the Utility panel (right) set:
+Xcode 6 added support for PDF / vector icons eliminating the need for multiple resolution per asset (goodbye 1x, 2x, 3x). However doing [so will](https://github.com/AliSoftware/OHPDFImage)
+
+> re-create PNG assets at compile time, embedding the rasterized bitmaps in the final application instead of embedding the original PDF vector image. 
+
+If you add PDF files directly as resources, they can be used as vector assets which have no size restriction (like an [icon font](#icon-font)
+
+If you still want to use a PDF asset with assets catalogs, create an image set for each PDF asset Xcode. Then in the Utility panel (right) set:
 
 - Devices: `Universal`
 - Scale Factors: `Single Vector`
@@ -114,6 +120,7 @@ Here are some tools to help you manage your assets.
 
 - [blade](https://github.com/jondot/blade): Generate Xcode image catalogs for iOS / OSX app icons, universal images, and more.
 - [Cat2Cat](https://github.com/vokal/Cat2Cat): Generate a category on UIImage from asset catalogs in order to reduce typos and enable Xcode auto-completion.
+- [OHPDFImage](https://github.com/AliSoftware/OHPDFImage): A library to easily load PDF files as UIImages.
 - [pdf_xcassets](https://github.com/dkhamsing/pdf_xcassets):  Generate Xcode xcassets for pdf assets.
 - [Synx](https://github.com/venmo/synx): A command-line tool that reorganizes your Xcode project folder to match your Xcode groups.
 

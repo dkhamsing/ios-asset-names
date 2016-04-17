@@ -98,7 +98,7 @@ Xcode 6 added support for PDF / vector icons eliminating the need for multiple r
 
 If you add PDF files directly as resources, they can be used as vector assets which have no size restriction (like an [icon font](#icon-font)).
 
-If you still want to use a PDF asset with assets catalogs, create an image set for each PDF asset Xcode. Then in the Utility panel (right) set:
+If you still want to use a PDF asset with assets catalogs, create an image set for each PDF asset in Xcode. Then in the Utility panel (right) set:
 
 - Devices: `Universal`
 - Scale Factors: `Single Vector`

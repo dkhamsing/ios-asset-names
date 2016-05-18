@@ -137,7 +137,7 @@ An important attribute of an asset name is uniqueness.
 
 * This prevents confusion: for example having two different `share` assets (say one for iPhone and one for iPad, or one in a main view and one in a detail view).
 * More importantly, while it is possible in Xcode to have two files of the same names in different folders, you can only reference one of them using `+ (UIImage *)imageNamed:(NSString *)name`.
-* **Update**: Asset catalogs support a namespace based on the asset "Group" that allows for the same name to be reused (read the [documentation](https://developer.apple.com/library/ios/documentation/Xcode/Reference/xcode_ref-Asset_Catalog_Format/FolderStructure.html) or [summary](http://stackoverflow.com/questions/28076644/differentiating-images-in-an-asset-catalog-by-their-group/32854289#32854289))
+* **Update**: Asset catalogs support a namespace based on the asset "Group" that allows for the same name to be reused (read the [documentation](https://developer.apple.com/library/ios/documentation/Xcode/Reference/xcode_ref-Asset_Catalog_Format/FolderStructure.html) or [summary](http://stackoverflow.com/questions/28076644/differentiating-images-in-an-asset-catalog-by-their-group/32854289#32854289)). 
 
 ```json
 "properties" : {

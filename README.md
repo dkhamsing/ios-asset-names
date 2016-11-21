@@ -36,23 +36,21 @@ Namespaces can correspond to view controllers, typical namespaces are `top`, `bo
 
 **Examples**
 
-![](assets/namespace1.PNG)
+<img width=200 src=assets/namespace1.PNG>
+<img width=200 src=assets/namespace2.PNG>
+<img width=200 src=assets/namespace3.PNG>
 
 Twitter profile
 
-- `top` or `top-bar` (shorter than `navigation-bar`)
+- `top`
 - `actions`
 - `tweet`
 - `tab`
 
-![](assets/namespace2.PNG)
-
 Tumblr home
 
-- `card` or `post`
+- post`
 - `tab`
-
-![](assets/namespace3.PNG)
 
 Instagram explore
 
@@ -94,7 +92,7 @@ To save disk space or time, one can omit the 1x, 2x or 3x asset: the system auto
 
 Xcode 6 added support for PDF / vector icons eliminating the need for multiple resolution per asset (goodbye 1x, 2x, 3x). However doing [so will](https://github.com/AliSoftware/OHPDFImage)
 
-> re-create PNG assets at compile time, embedding the rasterized bitmaps in the final application instead of embedding the original PDF vector image. 
+> re-create PNG assets at compile time, embedding the rasterized bitmaps in the final application instead of embedding the original PDF vector image.
 
 If you add PDF files directly as resources, they can be used as vector assets which have no size restriction (like an [icon font](#icon-font)).
 
@@ -137,7 +135,7 @@ An important attribute of an asset name is uniqueness.
 
 * This prevents confusion: for example having two different `share` assets (say one for iPhone and one for iPad, or one in a main view and one in a detail view).
 * More importantly, while it is possible in Xcode to have two files of the same names in different folders, you can only reference one of them using `+ (UIImage *)imageNamed:(NSString *)name`.
-* **Update**: Asset catalogs support a namespace based on the asset "Group" that allows for the same name to be reused (read the [documentation](https://developer.apple.com/library/ios/documentation/Xcode/Reference/xcode_ref-Asset_Catalog_Format/FolderStructure.html) or [summary](http://stackoverflow.com/questions/28076644/differentiating-images-in-an-asset-catalog-by-their-group/32854289#32854289)). 
+* **Update**: Asset catalogs support a namespace based on the asset "Group" that allows for the same name to be reused (read the [documentation](https://developer.apple.com/library/ios/documentation/Xcode/Reference/xcode_ref-Asset_Catalog_Format/FolderStructure.html) or [summary](http://stackoverflow.com/questions/28076644/differentiating-images-in-an-asset-catalog-by-their-group/32854289#32854289)).
 
 ```json
 "properties" : {

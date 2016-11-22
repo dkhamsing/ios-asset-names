@@ -257,7 +257,7 @@ ss-profile-gear-highlighted.png
 * `*-landscape`
 * `*-landscape-right`, etc
 
-See more information by Apple on [Launch Files](https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/MobileHIG/LaunchImages.html).
+Apple recommends using [Xcode storyboards for launch screens](https://developer.apple.com/ios/human-interface-guidelines/graphics/launch-screen/).
 
 ### Spelling
 

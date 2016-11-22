@@ -5,4 +5,4 @@ test:
   pre:
     - gem install awesome_bot
   override:
-    - awesome_bot README.md --allow-dupe
+    - awesome_bot README.md --allow-dupe -wl rehnby

@@ -2,7 +2,7 @@
 
 This guide outlines best practices and [naming conventions](#naming) to help graphic designers and developers manage a large number of icons prepared for an iOS project.
 
-Your input is welcome: [pull requests](https://github.com/dkhamsing/ios-asset-names/pulls), or [Twitter](https://twitter.com/dkhamsing) :smile:
+Your input is welcome: [pull requests](https://github.com/dkhamsing/ios-asset-names/pulls) or [Twitter](https://twitter.com/dkhamsing) :smile:
 
 ## Table Of Contents
 

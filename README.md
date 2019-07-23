@@ -2,7 +2,7 @@
 
 This guide outlines best practices and [naming conventions](#naming) to help graphic designers and developers manage a large number of icons prepared for an iOS project.
 
-Your input is welcome: [issues](https://github.com/dkhamsing/ios-asset-names/issues), [pull requests](https://github.com/dkhamsing/ios-asset-names/pulls), or [Twitter](https://twitter.com/dkhamsing) :smile:
+Your input is welcome: [pull requests](https://github.com/dkhamsing/ios-asset-names/pulls), or [Twitter](https://twitter.com/dkhamsing) :smile:
 
 ## Table Of Contents
 
@@ -201,7 +201,7 @@ ss-top-plus-gray.png
 
 * `*-square`
 * `*-circle`
-* `*-o` for outline
+* `*-outline` 
 
 ```
 ss-top-arrow-right-circle.png
@@ -210,7 +210,7 @@ ss-top-arrow-right-square.png
 
 ##### Combine shapes
 
-* `*-square-o` for square outline
+* `*-square-outline` for square and outline
 
 ##### Direction qualifer
 
